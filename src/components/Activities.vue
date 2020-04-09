@@ -2,7 +2,7 @@
     <v-content style="background-color: #001935">
         <v-container fluid>
 
-            <v-row class="ml-10 pr-12 pl-12" dense align="center" no-gutters>
+            <v-row style="margin-left:85px;margin-right: 85px"  dense align="center" no-gutters>
                 <v-avatar size="135" class="avatarBorder ">
                     <v-avatar size="110" class="avatar">
 
@@ -13,15 +13,15 @@
 
                     </v-avatar>
                 </v-avatar>
-                <div class="name ml-5">
+                <div class="name" style="margin-left: 20px">
                     <h1 style="font-size: 160%">Timothy Brewer</h1>
                     <h3 style="font-size: 92%">User interface designer</h3>
                 </div>
-                <div class="description">
+                <div class="description" style="margin-left:75px">
                     <h4 style="font-size: 110%">I can Work for</h4>
                     <h3 style="font-size: 140%">35 Hours/week</h3>
                 </div>
-                <div class="description1">
+                <div class="description1" style="margin-left:40px">
                     <h4 style="font-size: 110%">I Work for</h4>
                     <h3 style="font-size: 140%">17 USD/Hour</h3>
                 </div>
@@ -40,6 +40,7 @@
                 </v-btn>
 
             </v-row>
+
 
             <v-divider class="divide mt-2 mb-0" light></v-divider>
             <v-row class="ml-10 pr-12 pl-12" no-gutters color="#001935" flat dense align="center">
@@ -218,7 +219,7 @@
     .description {
         font-size: 70%;
         margin-top: 1%;
-        margin-left: 7%;
+
     }
 
     .description h4 {
@@ -239,7 +240,7 @@
     .description1 {
         font-size: 70%;
         margin-top: 1%;
-        margin-left: 3%;
+
     }
 
     .description1 h4 {
@@ -259,14 +260,14 @@
 
     .hire {
         margin-top: 1%;
-        margin-left: 8%;
+        margin-left: 75px;
 
 
     }
 
     .hire1 {
         margin-top: 1%;
-        margin-left: 2%;
+        margin-left: 30px;
 
 
     }
