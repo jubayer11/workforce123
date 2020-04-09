@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+html, body {
+    font-family: 'Cabin', sans-serif;
+}
+
+#app {
+    font-family: 'Cabin', sans-serif;
+}
